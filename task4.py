@@ -42,7 +42,7 @@ if level ==5:
 # Snippet 7:
 width = 8
 height = 10
-area = widht * height
+area = width * height
 print(f"Area: {area}")
 
 
