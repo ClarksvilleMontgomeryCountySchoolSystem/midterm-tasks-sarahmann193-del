@@ -44,7 +44,6 @@ subtotal = price*quantity
 subtotal = round(subtotal, 2)
 tax_rate = 0.095 #This is slightly different from the review. The tax multiplier is stored into a variable.
 tax = tax_rate*subtotal
-tax = round(tax, 2)
 total = tax+subtotal
 total = round(total, 2)
 
